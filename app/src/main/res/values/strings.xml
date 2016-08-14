@@ -1,0 +1,27 @@
+<resources>
+
+        <string name="app_name">Weather App</string>
+        <string name="city_country">Samara, Russia</string>
+        <string name="date">Friday, 8 July</string>
+        <string name="temperature_now">26</string>
+        <string name="weather_now">Partly Cloud</string>
+        <string name="temp_now">26, partly cloudy</string>
+        <string name="wind">WIND</string>
+        <string name="wind_speed">18 km/h</string>
+        <string name="humidity">HUMIDITY</string>
+        <string name="humidity_rate">73%</string>
+        <string name="day_of_week">Mon</string>
+        <string name="location_example">Example Samara</string>
+        <string name="add_new_location">Add new location</string>
+        <string name="permission_notice">This permission is important but you can as well set your location on Location page</string>
+        <string name="go_to_location">Go to location setting</string>
+        <string name="location_hints">Add City</string>
+        <string name="pressure">200</string>
+        <string name="sunrise">time</string>
+        <string name="sunset">time2</string>
+
+
+
+
+
+</resources>

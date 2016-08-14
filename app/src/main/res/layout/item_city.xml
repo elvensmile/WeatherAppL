@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_cities"
+    style="@style/AppTheme.Card.Margins"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/margin_large"
+        android:paddingLeft="@dimen/margin_large"
+        android:paddingRight="@dimen/margin_large"
+        android:paddingTop="@dimen/margin_large"
+        android:baselineAligned="false">
+
+    <LinearLayout
+        android:id="@+id/degree_wrapper"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:textSize="@dimen/text_size_v_large"
+            android:id="@+id/degree" />
+  </LinearLayout>
+    <LinearLayout
+        android:id="@+id/location_wrapper"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3.10"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/text_city_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_14sdp"
+            android:text=""
+            android:textColor="#555555"/>
+
+        <TextView
+            android:id="@+id/temp_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:text=""
+            android:layout_marginTop="@dimen/_4sdp"
+            android:textColor="#555555"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/icon_wrapper"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/weather_icon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="40sp"
+            android:textColor="@color/primary_light"
+
+            android:layout_marginBottom="@dimen/_4sdp"
+
+            />
+
+    </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
